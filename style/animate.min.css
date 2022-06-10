@@ -1,0 +1,65 @@
+.waypoint {
+    opacity: 0;
+  }
+
+  .animated.waypoint#gallery {
+    opacity: 1;
+  }
+  .animated.waypoint#gallery .mix:nth-child(1) > div {
+    animation: slideUp 0.75s 0.1s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(2) > div {
+    animation: slideUp 0.75s 0.2s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(3) > div {
+    animation: slideUp 0.75s 0.3s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(4) > div {
+    animation: slideUp 0.75s 0.4s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(5) > div {
+    animation: slideUp 0.75s 0.5s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(6) > div {
+    animation: slideUp 0.75s 0.6s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(7) > div {
+    animation: slideUp 0.75s 0.7s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(8) > div {
+    animation: slideUp 0.75s 0.8s ease both;
+    opacity: 0;
+  }
+  .animated.waypoint#gallery .mix:nth-child(9) > div {
+    animation: slideUp 0.75s 0.9s ease both;
+    opacity: 0;
+  }
+
+  .animated.slide-up {
+    animation: slideUp 0.75s ease both;
+  }
+  .animated.slide-down {
+    animation: slideDown 0.75s ease both;
+  }
+  .animated.slide-in-left {
+    animation: slideInLeft 0.75s ease both;
+  }
+  .animated.slide-in-right {
+    animation: slideInRight 0.75s ease both;
+  }
+  .animated.flip-in-x {
+    animation: flipInX 0.75s ease both;
+  }
+  .animated.fade-in {
+    animation: fadeIn 0.75s ease both;
+  }
+  .animated.pop-in {
+    animation: popIn 1s both;
+  }
