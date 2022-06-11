@@ -1,15 +1,3 @@
-@font-face {
-  font-family: "Raleway";
-  src: url("../fonts/Raleway-Regular.ttf");
-}
-@font-face {
-  font-family: "Raleway-semibold";
-  src: url("../fonts/Raleway-SemiBold.ttf");
-}
-@font-face {
-  font-family: "Raleway-bold";
-  src: url("../fonts/Raleway-Bold.ttf");
-}
 @keyframes fadeIn {
   100% {
     opacity: 1;
